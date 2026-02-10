@@ -12,6 +12,7 @@ describe('AppController', () => {
     }).compile();
 
     appController = app.get<AppController>(AppController);
+    console.log(appController.getHello());
   });
 
   describe('root', () => {
